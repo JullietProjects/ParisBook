@@ -2,7 +2,7 @@
  * Pages of the illustration book, in reading order.
  *
  * To add a page:
- *   1. Drop the artwork into `public/pages/`.
+ *   1. Put artwork in `public/assets/desktop/`.
  *   2. Append an entry: `{ cover: true, image, alt }` for a cover-only screen, or
  *      `{ image, alt, text, chapterTitle? }` for a story page. Use `**bold**` and `*italic*` in `text`.
  *      Set `chapterTitle` on the first page of a scenario; later pages inherit it until you set a new title.
@@ -10,12 +10,12 @@
 export const pages = [
   {
     cover: true,
-    image: "/pages/cover.png",
+    image: "/assets/desktop/cover.png",
     alt: "Capa",
   },
   {
     chapterTitle: "Le Hibou",
-    image: "/pages/01-le-hibou-1.png",
+    image: "/assets/desktop/01-le-hibou-1.png",
     alt: "Ilustração: três amigos em frente ao Restaurante Le Hibou, com mesas ao ar livre e letreiro no toldo",
     text: `Ainda com o corpo sentindo o peso das horas de trem e o fuso horário confuso, a fome bateu com uma urgência que não podia ser ignorada. Não procuramos por muito tempo; o destino parecia ter colocado o Restaurante Le Hibou estrategicamente em nosso caminho.
 
@@ -23,7 +23,7 @@ Não procuramos por muito tempo; o destino parecia ter colocado o Restaurante Le
 
   },
   {
-    image: "/pages/01-le-hibou-2.png",
+    image: "/assets/desktop/01-le-hibou-2.png",
     alt: "Ilustração: os três amigos à mesa saboreando crepes no Restaurante Le Hibou",
     text: `Havia algo de especial em sentar naquela mesa logo no primeiro dia. O ambiente carregava aquele charme autêntico, com o burburinho de conversas locais e o aroma inconfundível de massa tostada e queijo derretido pairando no ar.
 
@@ -33,8 +33,8 @@ Olhamos um para o outro, com os estômagos finalmente forrados e os ânimos reno
   },
   {
     chapterTitle: "Le Procope",
-    image: "/pages/02-le-procope.png",
-    alt: "Ilustração: a narradora fotografa Procopio em frente ao Le Procope, com o letreiro do restaurante acima da cabeça dele",
+    image: "/assets/desktop/02-le-procope.png",
+    alt: "Ilustração em traço: a narradora fotografa Procopio em frente ao Le Procope, com o letreiro do restaurante na fachada",
     text: `A energia renovada pelos crepes precisava ser gasta, e não havia academia melhor do que as ruas de paralelepípedos de Paris. Saímos do *Le Hibou* e nos deixamos levar pelo fluxo da cidade, com o objetivo prático da digestão se transformando rapidamente em uma nova exploração.
 
 Para Procopio, no entanto, caminhar por aquelas ruas nunca era apenas um exercício físico. Era uma peregrinação pelo tempo. Enquanto andávamos, ele apontava detalhes nas fachadas que passariam despercebidos pelo meu olhar vigilante, mas que para ele eram cicatrizes de revoluções passadas. Sua voz ganhava aquele tom professoral e apaixonado, transformando o concreto frio em narrativas vibrantes.
@@ -57,8 +57,8 @@ Cliquei. A foto capturou não apenas o homem e o monumento, mas a fusão perfeit
   },
   {
     chapterTitle: "Fontaine Saint-Sulpice",
-    image: "/pages/03-fontaine-saint-sulpice.png",
-    alt: "Ilustração: Procopio, Hugo e a narradora em frente à Fontaine Saint-Sulpice, com a igreja e a praça ao fundo",
+    image: "/assets/desktop/03-fontaine-saint-sulpice.png",
+    alt: "Ilustração em traço: Procopio, Hugo e a narradora em frente à Fontaine Saint-Sulpice, com a praça e edifícios ao fundo",
     text: `A foto no Le Procope ainda estava fresca na memória enquanto seguimos caminhando pelas ruas de Paris. O caminho até o hotel não era exatamente direto, mas isso parecia fazer parte da experiência — cada esquina revelava algo novo.
 
 Foi assim que chegamos à Fontaine Saint-Sulpice.
