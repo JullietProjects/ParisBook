@@ -111,18 +111,54 @@ body:has(.page--story) {
   text-wrap: balance;
 }
 
-/* Cover */
+/* Cover — title / art / subtitle stay a tight vertical stack (no giant flex spacer) */
 .page--cover {
   display: flex;
   flex-direction: column;
   min-height: 0;
   flex: 1;
   align-self: stretch;
-  padding: clamp(2px, 1.2vw, 12px);
+  padding-inline: clamp(2px, 1.2vw, 12px);
+  padding-block: clamp(4px, 1.2vw, 10px);
+  gap: 0;
+  justify-content: safe center;
+}
+
+.page__cover-intro {
+  flex-shrink: 0;
+  padding-block: clamp(4px, 1.2vw, 8px) clamp(8px, 2vw, 12px);
+  padding-inline: var(--chapter-title-pad-inline);
+  text-align: center;
+}
+
+.page__cover-title {
+  margin: 0;
+  font-family: "Fredoka", "Quicksand", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.6rem, 1.28rem + 1.85vw, 2.35rem);
+  letter-spacing: 0.065em;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text);
+  text-wrap: balance;
+}
+
+.page__cover-subline {
+  flex-shrink: 0;
+  margin: 0;
+  padding-block: clamp(8px, 2vw, 12px) clamp(4px, 1.2vw, 8px);
+  padding-inline: var(--chapter-title-pad-inline);
+  text-align: center;
+  font-size: clamp(0.9375rem, 0.84rem + 0.42vw, 1.0625rem);
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0.018em;
+  color: var(--text-muted);
+  text-wrap: balance;
 }
 
 .page--cover .page__media {
-  flex: 1;
+  flex: 0 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,7 +171,10 @@ body:has(.page--story) {
   inset: auto;
   width: min(100%, calc(var(--page-max-width) + clamp(24px, 6vw, 56px)));
   height: auto;
-  max-height: min(90dvh, calc(100dvh - var(--nav-stack) - 16px));
+  max-height: min(
+    86dvh,
+    calc(100dvh - var(--nav-stack) - clamp(6.5rem, 20vw, 9rem))
+  );
   max-width: 100%;
   object-fit: contain;
   object-position: center;
@@ -143,6 +182,18 @@ body:has(.page--story) {
 
 .page--cover .page__caption {
   display: none;
+}
+
+/* Larger cover type from tablet / desktop widths up */
+@media (min-width: 45rem) {
+  .page__cover-title {
+    font-size: clamp(2.1rem, 1.45rem + 1.5vw, 3rem);
+  }
+
+  .page__cover-subline {
+    font-size: clamp(1.0625rem, 0.92rem + 0.42vw, 1.3125rem);
+    line-height: 1.4;
+  }
 }
 
 /* Story column — title, art & rule stay fixed; only `.page__caption` scrolls */
@@ -313,7 +364,24 @@ body:has(.page--story) {
   }
 
   .page--cover .page__image {
-    max-height: min(82dvh, calc(100dvh - var(--nav-stack) - 12px));
+    max-height: min(
+      68dvh,
+      calc(
+        100dvh - var(--nav-stack) - clamp(6.5rem, 20vw, 9.5rem)
+      )
+    );
+  }
+
+  .page--cover {
+    padding-block: clamp(14px, 4.5vw, 24px);
+  }
+
+  .page__cover-intro {
+    padding-block: clamp(10px, 3.2vw, 18px) clamp(8px, 2.2vw, 14px);
+  }
+
+  .page__cover-subline {
+    padding-block: clamp(8px, 2.2vw, 14px) clamp(12px, 3.5vw, 20px);
   }
 
   .page--story .page__media {

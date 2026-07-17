@@ -36,12 +36,16 @@ if (!pages.length) {
 } else {
   app.innerHTML = `
     <article class="page" aria-live="polite">
+      <div class="page__cover-intro" hidden>
+        <h1 class="page__cover-title"></h1>
+      </div>
       <header class="page__header">
         <h1 class="page__header-text"></h1>
       </header>
       <div class="page__media">
         <img class="page__image" alt="" />
       </div>
+      <p class="page__cover-subline" hidden></p>
       <div class="page__soft-break" aria-hidden="true"></div>
       <div class="page__caption"></div>
     </article>
@@ -53,6 +57,9 @@ if (!pages.length) {
   `;
 
   const pageEl = app.querySelector(".page");
+  const coverIntroEl = app.querySelector(".page__cover-intro");
+  const coverTitleEl = app.querySelector(".page__cover-title");
+  const coverSublineEl = app.querySelector(".page__cover-subline");
   const headerEl = app.querySelector(".page__header");
   const headerTextEl = app.querySelector(".page__header-text");
   const softBreakEl = app.querySelector(".page__soft-break");
@@ -108,6 +115,17 @@ if (!pages.length) {
     imgEl.alt = page.alt ?? "";
 
     if (isCover) {
+      coverIntroEl.hidden = false;
+      coverTitleEl.textContent =
+        typeof page.coverTitle === "string" && page.coverTitle.trim()
+          ? page.coverTitle.trim()
+          : "PARIS 2025";
+      coverSublineEl.hidden = false;
+      coverSublineEl.textContent =
+        typeof page.coverTagline === "string" && page.coverTagline.trim()
+          ? page.coverTagline.trim()
+          : "Momentos que não cabem em uma página";
+
       headerEl.hidden = true;
 
       softBreakEl.hidden = true;
@@ -115,6 +133,9 @@ if (!pages.length) {
       captionEl.hidden = true;
       captionEl.removeAttribute("aria-label");
     } else {
+      coverIntroEl.hidden = true;
+      coverSublineEl.hidden = true;
+
       headerEl.hidden = false;
 
       headerTextEl.textContent = resolveChapterTitle(index);
