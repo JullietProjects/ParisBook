@@ -14,11 +14,11 @@ Then open the URL Vite prints (usually http://localhost:5173).
 
 ## Adding pages
 
-1. Drop artwork into `public/assets/desktop/` (PNG or JPG, portrait-oriented).
+1. Drop artwork into `public/assets/` (PNG or JPG, portrait-oriented).
 2. Add an entry to `src/pages.js`:
 
    ```js
-   { image: "/assets/desktop/01.png", text: "…" }
+   { image: "/assets/01.png", text: "…" }
    ```
 
 The order of the array is the page order. Use Previous / Next or the

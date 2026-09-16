@@ -154,7 +154,7 @@ If the transition feels abrupt, add a **new illustration page**, not a longer ca
 ```js
 {
   chapterTitle: "Le Procope",
-  image: "/assets/desktop/02-le-procope.png",
+  image: "/assets/02-le-procope.png",
   alt: "Ilustração em traço: …",
   text: `First paragraph here.
 
@@ -209,7 +209,7 @@ Example: `Ilustração em traço: três amigos em frente ao Restaurante Le Hibou
 ## File workflow
 
 1. Write draft text (this guide).
-2. Create or generate image → `public/assets/desktop/`.
+2. Create or generate image → `public/assets/`.
 3. Add entry to [`src/pages.js`](../src/pages.js).
 4. Check on mobile (`npm run dev`, same Wi‑Fi URL).
 5. Trim until it fits without scroll.
