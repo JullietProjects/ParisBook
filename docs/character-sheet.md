@@ -1,7 +1,7 @@
 # Paris Book — Character & Style Sheet
 
 Reference for generating new illustrations that match the existing book.  
-Based on full review of all assets in `public/assets/desktop/`.
+Based on full review of all assets in `public/assets/`.
 
 ---
 
@@ -35,10 +35,10 @@ All characters must match the same art style: minimalist line art, consistent pr
 
 Keep the same canvas size as the existing artwork so every page scales consistently in the viewer.
 
-| Asset type                 | Size (px)       | Aspect ratio      | Files                                         |
-| -------------------------- | --------------- | ----------------- | --------------------------------------------- |
-| **Cover**                  | **1024 × 1024** | 1∶1 square        | `cover.png`                                   |
-| **Story / interior pages** | **1024 × 723**  | ~1.42∶1 landscape | All other `*.png` in `public/assets/desktop/` |
+| Asset type                 | Size (px)       | Aspect ratio      | Files                                 |
+| -------------------------- | --------------- | ----------------- | ------------------------------------- |
+| **Cover**                  | **1024 × 1024** | 1∶1 square        | `cover.png`                           |
+| **Story / interior pages** | **1024 × 723**  | ~1.42∶1 landscape | All other `*.png` in `public/assets/` |
 
 **Rules for new images**
 
@@ -65,10 +65,22 @@ Canvas 1024x723 pixels, landscape orientation, line art fills the frame edge to 
 | Character        | Story role                                            | Visual anchor                                      |
 | ---------------- | ----------------------------------------------------- | -------------------------------------------------- |
 | **The Narrator** | First-person voice; photographer; observant, warm     | Braid + rectangular glasses + satchel + mouth mole |
-| **Procopio**     | Historian; enthusiastic guide; gestures while talking | Bald + beard + rectangular glasses + denim jacket  |
+| **Procopio**     | Historian; enthusiastic guide; gestures while talking | Short buzz cut + beard + rectangular glasses + denim jacket |
 | **Hugo**         | Calm, quiet observer; dry, gentle presence            | Spiky hair + **d20 T-shirt** (no glasses)          |
 
 Standing order **varies by scene** — identity matters, not fixed left/center/right slots.
+
+### Heights (canonical)
+
+| Character            | Relative height            |
+| -------------------- | -------------------------- |
+| **Narrator (Julia)** | Same as Procopio and Hugo  |
+| **Procopio**         | Same as Julia and Hugo     |
+| **Hugo**             | Same as Julia and Procopio |
+
+**All three equal height** — same head-top / eye line / shoulder line. Never draw Hugo taller or Procopio shorter.
+
+Negative: height differences, Hugo giant, elongated fashion proportions.
 
 ---
 
@@ -81,7 +93,9 @@ Standing order **varies by scene** — identity matters, not fixed left/center/r
 - Young adult woman
 - **Hair:** Long, center part, **one thick braid** hanging over her **left shoulder**
 - **Glasses:** **Thick black rectangular frames**, slightly rounded corners; wider than tall; sits high on the bridge
-- **Beauty mark (required):** Small mole at the **left corner of the mouth** — just **below the lower lip**, at the mouth corner, **above the chin** (not on the cheek)
+- **Beauty mark (required):** Tiny black dot on **her left** (viewer’s right), **flush against the left corner of the smile** — almost touching the mouth line, just under the lip corner. Think “on the mouth corner,” not “on the cheek.”
+  - **Correct:** immediately next to the mouth corner (see [`docs/references/narrator-beauty-mark-correct.png`](references/narrator-beauty-mark-correct.png))
+  - **Wrong:** floating mid/lower cheek away from the mouth (see [`docs/references/narrator-beauty-mark-wrong.png`](references/narrator-beauty-mark-wrong.png))
 - **Expression:** Soft, gentle smile; focused/neutral when eating or photographing
 
 ### Outfit (fixed)
@@ -93,7 +107,7 @@ Standing order **varies by scene** — identity matters, not fixed left/center/r
 
 ### Body & pose
 
-- Slightly **shorter** than both men (about shoulder/ear level on them)
+- **Same height** as Procopio and Hugo (equal eye line / head tops)
 - Often holds a **smartphone** horizontally when taking a photo (see Le Procope)
 - Calm standing posture; may touch bag strap while walking
 
@@ -119,14 +133,19 @@ Standing order **varies by scene** — identity matters, not fixed left/center/r
 ### Head & face
 
 - Adult / middle-aged man
-- **Bald on top**, short hair on sides and back
-- **Full beard and mustache**, neatly trimmed
+- **Head shape:** Natural **rounded** skull — never a tall elongated oval / “egg”
+- **Hair (canonical):** Very short **buzz cut** covering the **whole head**, including the top
+  - **Texture:** Dense short stipple / tick marks all over (line-art version of a #1–#2 buzz)
+  - **Crown / top:** Slightly **thinner** short fuzz — scalp may show through, but there is still hair. **Never** a smooth shiny bald oval. **Never** leave the upper half of the head empty
+  - **Back & sides:** Same buzz, a bit **denser** than the crown; wraps the ears and nape; sideburns connect into the beard
+  - **Sheet art:** [`docs/references/procopio-character-sheet.png`](references/procopio-character-sheet.png)
+- **Full beard and mustache**, neatly trimmed (connects to sideburns)
 - **Glasses:** **Thick black rectangular frames** — similar family to the Narrator’s but often **slightly larger and squarer**
 - **Expression:** Wide open smile, eyes sometimes squinted shut when very happy; talks with hands
 
 ### Outfit (fixed)
 
-- Plain T-shirt under an **open denim jacket** (visible stitching, **two buttoned chest pockets**)
+- Plain T-shirt under an **open denim jacket** (visible stitching, **two buttoned chest pockets**; back has horizontal yoke + vertical seams)
 - Straight trousers / jeans, **cuffs rolled once**
 - **Sturdy lace-up boots**
 
@@ -136,7 +155,7 @@ Standing order **varies by scene** — identity matters, not fixed left/center/r
 
 ### Body & pose
 
-- Similar height to Hugo, taller than the Narrator
+- **Same height** as Julia and Hugo
 - Hands in jacket or trouser pockets when standing still
 - **Gesturing** (pointing up, open hand) when explaining history
 
@@ -157,13 +176,15 @@ Standing order **varies by scene** — identity matters, not fixed left/center/r
 
 ### Outfit (fixed — signature)
 
-- **T-shirt with a D20 dice symbol centered on the chest** (number **20** visible)
+- **T-shirt with a D20 dice symbol on BOTH sides** — large icosahedron graphic with number **20** on the center face
+  - **Front:** centered on the chest
+  - **Back:** same d20 centered between the shoulder blades (required whenever his back is visible — see [`docs/references/hugo-character-sheet.png`](references/hugo-character-sheet.png))
 - Casual pants (cuffs optional)
 - **Sneakers**
 
 ### Body & pose
 
-- Similar height to Procopio
+- **Same height** as Julia and Procopio (never taller)
 - Relaxed: **one hand in pocket**, or arms crossed
 - Warm half-smile; listens more than he gestures
 
@@ -198,11 +219,11 @@ Black and white line art illustration, coloring-book style, clean uniform black 
 
 Three recurring characters, same outfits every time:
 
-1) NARRATOR — young woman, long center-part hair in one thick braid over left shoulder, thick black rectangular glasses with slightly rounded corners, small beauty mark below left corner of mouth above chin (NOT on cheek), plain tucked crew-neck tee, belted high-waisted cargo trousers with side pocket, crossbody satchel with rectangular flap and buckle (right shoulder to left hip), chunky lace-up hiking boots, gentle smile, slightly shorter than the men.
+1) NARRATOR — young woman, long center-part hair in one thick braid over left shoulder, thick black rectangular glasses with slightly rounded corners, tiny beauty mark flush against left corner of the smile (touching mouth corner — NOT floating on cheek), plain tucked crew-neck tee, belted high-waisted cargo trousers with side pocket, crossbody satchel with rectangular flap and buckle (right shoulder to left hip), chunky lace-up hiking boots, gentle smile.
 
-2) PROCOPIO — middle-aged man, bald on top with side hair, full trimmed beard, thick black rectangular glasses (slightly larger than narrator's), open denim jacket with two buttoned chest pockets over plain tee, cuffed trousers, lace-up boots, optional backpack with diamond patch, expressive historian gestures and wide smile.
+2) PROCOPIO — middle-aged man, natural rounded head (never tall oval), very short buzz-cut hair covering the ENTIRE head including the top (dense short stipple tick marks all over; crown only slightly thinner — still has fuzz, NEVER a smooth bald pate or empty upper half), denser buzz on sides/back connecting into full trimmed white beard via sideburns, thick black rectangular glasses (slightly larger than narrator's), open denim jacket with two buttoned chest pockets over plain tee, cuffed trousers, lace-up boots, optional backpack with diamond patch, expressive historian gestures and wide smile.
 
-3) HUGO — young man, short textured soft hair (not extreme spikes), light subtle beard, no glasses, t-shirt with D20 dice graphic showing number 20, casual pants, sneakers, calm pose one hand in pocket.
+3) HUGO — young man, short textured soft hair (not extreme spikes), light subtle beard, no glasses, t-shirt with D20 dice graphic showing number 20 on BOTH the front chest AND the back between the shoulder blades, casual pants, sneakers, calm pose one hand in pocket.
 
 [SCENE DESCRIPTION HERE]
 ```
@@ -214,19 +235,25 @@ Three recurring characters, same outfits every time:
 **Narrator only:**
 
 ```
-Young woman, thick braid over left shoulder, thick rectangular black glasses, small mole below left mouth corner above chin, crossbody satchel, cargo pants, hiking boots, black and white line art, no shading
+Young woman, thick braid over left shoulder, thick rectangular black glasses, tiny mole flush against left corner of smile (not on cheek), crossbody satchel, cargo pants, hiking boots, black and white line art, no shading
+```
+
+**Beauty mark prompt fragment (always include when she faces camera):**
+
+```
+tiny beauty mark flush against the left corner of her smile / mouth (her left = viewer's right), almost touching the lip corner — NOT on the cheek, NOT floating mid-face
 ```
 
 **Procopio only:**
 
 ```
-Bald man with full beard, thick rectangular glasses, open denim jacket two chest pockets, cuffed jeans, lace-up boots, gesturing happily, black and white line art, no shading
+Short full buzz cut covering whole head including top (crown slightly thinner but still fuzzy — NEVER smooth bald), full beard, thick rectangular glasses, open denim jacket two chest pockets, cuffed jeans, lace-up boots, gesturing happily, black and white line art, no shading. Rounded natural head. From behind: short dense buzz on back and sides, thin short fuzz still visible on crown.
 ```
 
 **Hugo only:**
 
 ```
-Young man spiky hair short beard, d20 twenty-sided die t-shirt number 20 visible, cuffed pants lace-up boots, relaxed pose, black and white line art, no shading
+Young man spiky hair short beard, d20 twenty-sided die t-shirt number 20 visible on front chest AND on back of shirt, cuffed pants sneakers, relaxed pose, black and white line art, no shading
 ```
 
 ---
@@ -235,10 +262,10 @@ Young man spiky hair short beard, d20 twenty-sided die t-shirt number 20 visible
 
 - [ ] **Dimensions:** cover **1024×1024**, story pages **1024×723** (width always 1024)
 - [ ] Pure B&W line art, no accidental shading or color
-- [ ] All three (if present) match wardrobe anchors — especially Hugo’s **d20 shirt**
-- [ ] Narrator: braid left shoulder, **rectangular glasses**, **mouth mole** (not cheek)
-- [ ] Procopio: bald, beard, denim jacket, rectangular glasses
-- [ ] Hugo: no glasses, d20 visible
+- [ ] All three (if present) match wardrobe anchors — especially Hugo’s **d20 shirt** (front **and** back when rear view)
+- [ ] Narrator: braid left shoulder, **rectangular glasses**, **beauty mark flush against left mouth corner** (not floating on cheek)
+- [ ] Procopio: round head, short buzz covering whole head (thinner crown still has fuzz — not bald pate), beard, denim jacket, rectangular glasses
+- [ ] Hugo: no glasses, d20 visible (both sides of shirt when applicable)
 - [ ] Same boots/jackets/pants as reference sheets — no outfit drift
 - [ ] Interior page → no decorative cover border
 - [ ] Line weight and face simplification match existing pages
