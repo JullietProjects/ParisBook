@@ -30,15 +30,15 @@ export const pages = [
     alt: "Ilustração em traço: mapa simplificado da viagem de Amsterdã a Paris, com rota por terra e ícones de bicicleta, trem e Torre Eiffel",
     text: `Primeira viagem à Europa: a primeira parada tinha sido **Amsterdã** — canais, bicicletas, o choque de estar do outro lado do oceano.
 
-Depois vieram horas de estrada e de trem até tocarmos solo francês e nos reencontrarmos em **Paris**. Finalmente os três ali, prontos para o que vinha.`,
+Depois vieram horas de estrada e de trem até tocarmos solo francês e nos reencontrarmos em **Paris**.`,
   },
   {
     chapterTitle: "Le Hibou",
     image: "/assets/01-le-hibou-1.png",
     alt: "Ilustração: três amigos em frente ao Restaurante Le Hibou, com mesas ao ar livre e letreiro no toldo",
-    text: `Ainda com o corpo sentindo a viagem e o fuso confuso, a fome bateu com urgência. Não procuramos por muito tempo: o destino parecia ter colocado o **Le Hibou** no nosso caminho.
+    text: `Finalmente os três ali, prontos para o que vinha. Ainda com o corpo sentindo a viagem e o fuso confuso, a fome bateu com urgência. Não procuramos por muito tempo: o destino parecia ter colocado o **Le Hibou** no nosso caminho.
 
-Ele não seria só mais uma parada — ganharia o título de nossa "estreia" gastronômica em solo francês.`,
+Ele não seria só mais uma parada — ganharia o título de nossa estreia gastronômica em solo francês.`,
   },
   {
     image: "/assets/01-le-hibou-2.png",
@@ -61,7 +61,7 @@ Quando os crepes chegaram, fumegantes e dourados, foram um abraço de boas-vinda
     alt: "Ilustração em traço: Procopio, Hugo e a narradora em frente à Fontaine Saint-Sulpice, com a praça e edifícios ao fundo",
     text: `Seguimos sem mapa até a **Fontaine Saint-Sulpice**. A praça abriu um silêncio: água caindo, estátuas de pedra. — "São os Quatro Oradores" — explicou Procopio.
 
-Hugo parou ao meu lado, tranquilo. — "Parece que a cidade sabe quando a gente precisa diminuir." O hotel esperava — mas, pela primeira vez, sem urgência.`,
+Hugo parou ao meu lado, tranquilo. — "Parece que a cidade sabe quando a gente precisa diminuir o passo." O hotel esperava — mas, pela primeira vez, sem urgência. E assim encerramos o primeiro dia.`,
   },
   {
     chapterTitle: "Eglise de Saint Germain des Pres",
@@ -69,7 +69,7 @@ Hugo parou ao meu lado, tranquilo. — "Parece que a cidade sabe quando a gente 
     alt: "Ilustração em traço: Procopio, Hugo e a narradora entrando na Eglise de Saint Germain des Pres, com a torre, o portal e o interior abobadado ao fundo",
     text: `No dia seguinte, acordamos em Paris com a sensação de que o primeiro dia tinha sido só um prólogo.
 
-A torre da **Eglise de Saint Germain des Pres** apareceu alta e sóbria. Entramos; eu fotografei arcos e colunas. Procopio já explicava: uma das igrejas mais antigas de Paris. O primeiro capítulo do novo dia.`,
+A torre da **Eglise de Saint Germain des Pres** apareceu alta e sóbria. Entramos; eu fotografei arcos e colunas. Procopio já explicava tudo: uma das igrejas mais antigas de Paris. O primeiro capítulo do novo dia.`,
   },
   {
     chapterTitle: "Musée d'Orsay",
@@ -121,7 +121,7 @@ Tirei umas fotos muito especiais: Procopio à esquerda, Hugo no meio, eu enquadr
     chapterTitle: "Bistro parisiense",
     image: "/assets/08-bistro-tartare.png",
     alt: "Ilustração em traço: Hugo, Procopio e a narradora à mesa redonda num bistro, com tartare, sobremesas e pão",
-    text: `Saímos do pátio do *Louvre* com o estômago reclamando. Entramos no primeiro **bistro parisiense** que apareceu — e resolvemos forrar a barriga de uma vez: pão quente, pratos chegando, sobremesas disputando espaço na mesa redonda.
+    text: `Depois disso, saímos do pátio do *Louvre* com o estômago reclamando. Entramos no primeiro **bistro parisiense** que apareceu — e resolvemos forrar a barriga de uma vez: pão quente, pratos chegando, sobremesas disputando espaço na mesa redonda.
 
 Até me aventurei no steak tartare. Levantei o garfo, olhei de novo… era carne crua demais até para quem tinha jurado ser corajosa. Procopio atacava a crème brûlée; Hugo atacava o pudim. Eu fui direto para a sobremesa — e, bem cheios, voltamos para o hotel.`,
   },
