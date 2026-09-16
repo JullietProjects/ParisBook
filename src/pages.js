@@ -22,7 +22,7 @@ export const pages = [
     alt: "Ilustração em traço: Procopio beija a narradora na têmpora, sentados juntos, o braço dele no ombro dela",
     text: `Em Paris, entre histórias, fachadas e caminhadas, você seguia contando tudo e eu ia alguns passos atrás, tentando guardar cada momento em uma foto. Este livro foi o jeito que encontrei de reunir um pouco do que vivemos — inclusive os momentos que não cabem em uma página.
 
-**Feliz Aniversário**, Procopinho! Eu te amo muito. Você é um pai incrível, e eu sou muito feliz por ter vivido tudo isso com você. — Com carinho, Julia :)`,
+**Feliz Aniversário**, Procopinho! Você é um pai incrível, e eu sou muito feliz por ter vivido tudo isso com você. — Com carinho, Julia :)`,
   },
   {
     chapterTitle: "Amsterdã → Paris",
@@ -155,8 +155,16 @@ Mesmo assim deu para curtir. Sentamos no meio da multidão e observamos a cidade
     alt: "Ilustração em traço: Procopio sozinho descendo a rua de paralelepípedos de Montmartre, de costas, com a mochila e uma garrafinha d'água",
     text: `Na descida de *Montmartre*, Procopio não parava: — "Essas ruas íngremes eram atalhos de artistas e boêmios" — explicou, sem olhar para trás.
 
-Enquanto isso, eu atrasava o passo, buscando o ângulo certo. Clique! Uma das minhas fotos favoritas: Procopio à frente, a rua inclinada e Paris descendo com ele.
+Enquanto isso, eu atrasava o passo, buscando o ângulo certo. Clique! Uma das minhas fotos favoritas: Procopio à frente, a rua inclinada e Paris descendo com ele.`,
+  },
+  {
+    chapterTitle: "Até a próxima",
+    image: "/assets/12-fechamento.png",
+    alt: "Ilustração em traço: a narradora finaliza o livro no tablet, com rascunhos do Procopio sobre a mesa; ele observa sorrindo atrás dela",
+    text: `E era assim que eu queria lembrar dessa viagem: em movimento, entre histórias e cliques, tentando guardar um pouco de tudo.
 
-E era assim que eu queria lembrar dessa viagem: em movimento, entre histórias e cliques, tentando guardar um pouco de tudo.`,
+Depois de quase um ano planejando esta pequena lembrança — e de inúmeras tentativas de ilustração em que você apareceu com menos cabelo do que eu gostaria — consegui finalizar a versão digital a tempo do seu aniversário.
+
+**Feliz aniversário**, Procopinho. Eu te amo muito. Que venham muitos outros momentos — e muitos outros cliques!`,
   },
 ];
