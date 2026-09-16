@@ -4,21 +4,31 @@ Things to do after the book content is finished (story + illustrations).
 
 ## Consistency / art polish
 
-- [ ] **Cover — Hugo’s hair:** Update `public/assets/desktop/cover.png` so Hugo’s hair matches the canonical look (short soft textured hair, not tall spikes / strong undercut). Prefer regenerating **only his hair** if possible, keeping the rest of the cover (border, Eiffel Tower, Procopio, narrator, poses) intact. Reference: Saint-Sulpice / Saint-Germain pages + `docs/character-sheet.md` (Hugo section).
+- [x] **Cover — heights:** Regenerated with Julia, Procopio, and Hugo at the **same height**. Applied to `public/assets/cover.png`.
+- [x] **Procopio hair (canonical):** Updated character sheet. Short buzz covers the whole head (thinner at crown, denser sides/back); rounded head — never tall oval / empty upper half. See `docs/character-sheet.md` + `docs/references/procopio-character-sheet.png`.
+- [x] **Montmartre sunset** — regenerated sharper at **1024×723** (`10-montmartre-sunset.png`); removed unused `-v2/-v3/-v4` drafts.
+- [x] **Montmartre descent** — art regenerated in book cartoon style + text with Procopio fact + photo beat (`10-montmartre-descent.png`).
 
 ## Next pages / draft order
 
-- [ ] **Musee d'Orsay** — draft page 4
-- [ ] **Jardin du Luxembourg** — draft page 5
-- [ ] **Paris Seine** — draft page 6
-- [ ] **Louvre** — draft page 7
-- [ ] **Restaurants** — draft page 8
-- [ ] **Notre-Dame** — draft page 9
-- [ ] **Montmartre** — draft page 10
-- [ ] **Montmartre view** — draft page 11
-- [ ] **Montmartre descent / descida** — draft page 12
-- [ ] **Appreciation** — draft page 13
+- [x] **Musée d'Orsay** — draft page 4 (`05-musee-dorsay.png`, mapa, Cordier)
+- [x] **Jardin du Luxembourg** — draft page 5
+- [x] **Paris Seine** — draft page 6
+- [x] **Louvre** — draft page 7
+- [x] **Restaurants / Bistro** — draft page 8 (`08-bistro-tartare.png`)
+- [x] **Notre-Dame** — draft page 9
+- [x] **Montmartre** — draft page 10 (`10-montmartre-funicular.png`)
+- [x] **Montmartre view** — draft page 11 (`10-montmartre-sunset.png`)
+- [x] **Montmartre descent / descida** — draft page 12 (`10-montmartre-descent.png`)
+- [x] **Appreciation** — draft page 13 (`11-para-procopio.png`)
+
+## Final review / polish
+
+- [ ] **Review all text** — read every page in `src/pages.js` (voice, length budget, bold/italic, transitions, typos).
+- [ ] **Review images** — scan all `public/assets/` story art for style/dimension drift; improve where needed, **especially Procopio’s hair** (match the character sheet + cartoon line weight from early pages).
 
 ## Notes
 
-Add new checklist items here as they come up while finishing the book.
+- Story pages through the closing dedication (`Para o Procopio`) are in `src/pages.js`.
+- When regenerating art, use early pages (`01-le-hibou-*`, `03-fontaine-*`) for line weight / cartoon proportions, and character refs so designs don’t drift.
+- Add new checklist items here as they come up while finishing the book.
