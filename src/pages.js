@@ -22,7 +22,7 @@ export const pages = [
     alt: "Ilustração em traço: Procopio beija a narradora na têmpora, sentados juntos, o braço dele no ombro dela",
     text: `Em Paris, entre histórias, fachadas e caminhadas, você seguia contando tudo e eu ia alguns passos atrás, tentando guardar cada momento em uma foto. Este livro foi o jeito que encontrei de reunir um pouco do que vivemos — inclusive os momentos que não cabem em uma página.
 
-**Feliz Aniversário**, Procopinho! Você é um pai incrível, e eu sou muito feliz por ter vivido tudo isso com você.`,
+Obrigada por transformar tantos passeios em histórias, tantas ruas em descobertas e essa viagem em uma lembrança que eu vou guardar com muito carinho.`,
   },
   {
     chapterTitle: "Amsterdã → Paris",
@@ -165,6 +165,6 @@ E era assim que eu queria lembrar dessa viagem: em movimento, entre histórias e
     alt: "Ilustração em traço: a narradora sentada entre vários rascunhos, segurando o livro com a capa de Paris",
     text: `Depois de quase um ano planejando esta pequena lembrança — e de inúmeras tentativas de ilustração em que você apareceu com menos cabelo do que eu gostaria — consegui finalizar a versão digital a tempo do seu aniversário.
 
-**Feliz aniversário**, Procopinho. Eu te amo muito. Que venham muitos outros momentos — e muitos outros cliques! — Com carinho, Julia :)`,
+**Feliz aniversário**, Procopinho. Eu te amo muito. Que venham muitos outros momentos — e muitos outros cliques! — Com muito carinho, Julia :)`,
   },
 ];
