@@ -111,7 +111,7 @@ if (!pages.length) {
 
     imgEl.classList.add("is-loading");
     imgEl.onload = () => imgEl.classList.remove("is-loading");
-    imgEl.src = page.image;
+    imgEl.src = `${import.meta.env.BASE_URL}${page.image.replace(/^\//, "")}`;
     imgEl.alt = page.alt ?? "";
 
     if (isCover) {
