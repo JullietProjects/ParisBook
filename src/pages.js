@@ -121,7 +121,7 @@ Tirei umas fotos muito especiais: Procopio à esquerda, Hugo no meio, eu enquadr
     chapterTitle: "Bistro parisiense",
     image: "/assets/08-bistro-tartare.png",
     alt: "Ilustração em traço: Hugo, Procopio e a narradora à mesa redonda num bistro, com tartare, sobremesas e pão",
-    text: `Depois disso, saímos do pátio do *Louvre* com o estômago reclamando. Entramos no primeiro **bistro parisiense** que apareceu — e resolvemos forrar a barriga de uma vez: pão quente, pratos chegando, sobremesas disputando espaço na mesa redonda.
+    text: `Saímos do pátio do *Louvre* com o estômago reclamando. Entramos no primeiro **bistro parisiense** que apareceu — e resolvemos forrar a barriga de uma vez: pão quente, pratos chegando, sobremesas disputando espaço na mesa redonda.
 
 Até me aventurei no steak tartare. Levantei o garfo, olhei de novo… era carne crua demais até para quem tinha jurado ser corajosa. Procopio atacava a crème brûlée; Hugo atacava o pudim. Eu fui direto para a sobremesa — e, bem cheios, voltamos para o hotel.`,
   },
