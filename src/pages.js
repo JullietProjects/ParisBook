@@ -7,7 +7,6 @@
  *   2. Append an entry: `{ cover: true, image, alt, coverTitle?, coverTagline? }` for a cover-only screen, or
  *      `{ image, alt, text, chapterTitle? }` for a story page. Use `**bold**` and `*italic*` in `text`.
  *      Set `chapterTitle` on the first page of a scenario; later pages inherit it until you set a new title.
- *   3. See `docs/writing-guide.md` for length, voice, and page structure.
  */
 export const pages = [
   {
