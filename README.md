@@ -3,6 +3,8 @@
 An online viewer for an illustration book. Each page shows an artwork on top
 that fades into a black band where the caption text is displayed.
 
+Live: [jullietprojects.github.io/ParisBook](https://jullietprojects.github.io/ParisBook/)
+
 ## Develop
 
 ```bash
