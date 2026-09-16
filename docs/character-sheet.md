@@ -94,8 +94,8 @@ Negative: height differences, Hugo giant, elongated fashion proportions.
 - **Hair:** Long, center part, **one thick braid** hanging over her **left shoulder**
 - **Glasses:** **Thick black rectangular frames**, slightly rounded corners; wider than tall; sits high on the bridge
 - **Beauty mark (required):** Tiny black dot on **her left** (viewer’s right), **flush against the left corner of the smile** — almost touching the mouth line, just under the lip corner. Think “on the mouth corner,” not “on the cheek.”
-  - **Correct:** immediately next to the mouth corner (see [`docs/references/narrator-beauty-mark-correct.png`](references/narrator-beauty-mark-correct.png))
-  - **Wrong:** floating mid/lower cheek away from the mouth (see [`docs/references/narrator-beauty-mark-wrong.png`](references/narrator-beauty-mark-wrong.png))
+  - **Correct:** immediately next to the mouth corner
+  - **Wrong:** floating mid/lower cheek away from the mouth
 - **Expression:** Soft, gentle smile; focused/neutral when eating or photographing
 
 ### Outfit (fixed)
@@ -138,7 +138,6 @@ Negative: height differences, Hugo giant, elongated fashion proportions.
   - **Texture:** Dense short stipple / tick marks all over (line-art version of a #1–#2 buzz)
   - **Crown / top:** Slightly **thinner** short fuzz — scalp may show through, but there is still hair. **Never** a smooth shiny bald oval. **Never** leave the upper half of the head empty
   - **Back & sides:** Same buzz, a bit **denser** than the crown; wraps the ears and nape; sideburns connect into the beard
-  - **Sheet art:** [`docs/references/procopio-character-sheet.png`](references/procopio-character-sheet.png)
 - **Full beard and mustache**, neatly trimmed (connects to sideburns)
 - **Glasses:** **Thick black rectangular frames** — similar family to the Narrator’s but often **slightly larger and squarer**
 - **Expression:** Wide open smile, eyes sometimes squinted shut when very happy; talks with hands
@@ -178,7 +177,7 @@ Negative: height differences, Hugo giant, elongated fashion proportions.
 
 - **T-shirt with a D20 dice symbol on BOTH sides** — large icosahedron graphic with number **20** on the center face
   - **Front:** centered on the chest
-  - **Back:** same d20 centered between the shoulder blades (required whenever his back is visible — see [`docs/references/hugo-character-sheet.png`](references/hugo-character-sheet.png))
+  - **Back:** same d20 centered between the shoulder blades (required whenever his back is visible)
 - Casual pants (cuffs optional)
 - **Sneakers**
 

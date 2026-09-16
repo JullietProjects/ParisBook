@@ -5,7 +5,7 @@ Things to do after the book content is finished (story + illustrations).
 ## Consistency / art polish
 
 - [x] **Cover — heights:** Regenerated with Julia, Procopio, and Hugo at the **same height**. Applied to `public/assets/cover.png`.
-- [x] **Procopio hair (canonical):** Updated character sheet. Short buzz covers the whole head (thinner at crown, denser sides/back); rounded head — never tall oval / empty upper half. See `docs/character-sheet.md` + `docs/references/procopio-character-sheet.png`.
+- [x] **Procopio hair (canonical):** Updated character sheet. Short buzz covers the whole head (thinner at crown, denser sides/back); rounded head — never tall oval / empty upper half. See `docs/character-sheet.md`.
 - [x] **Montmartre sunset** — regenerated sharper at **1024×723** (`10-montmartre-sunset.png`); removed unused `-v2/-v3/-v4` drafts.
 - [x] **Montmartre descent** — art regenerated in book cartoon style + text with Procopio fact + photo beat (`10-montmartre-descent.png`).
 
